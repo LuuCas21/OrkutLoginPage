@@ -1,0 +1,215 @@
+/* Documento CSS */
+
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    box-sizing:border-box;
+    background-color:var(--color3);
+}
+
+:root {
+    --color1:#bccdea;
+    --color2:#fcfdde;
+    --color3:#d9e6f7;
+    --color4:#fff;
+    --color5:#333;
+    --color6:#cc1f89;
+    --color7:#da2747;
+    --color8:#0047be;
+    --color9:#9477b0;
+}
+
+header > .header-descr {
+    position:relative;
+    width:1010px;
+    height:40px;
+    border:1px solid var(--color4);
+    border-radius:7px;
+    background:var(--color4);
+    margin-top:10px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+header > .header-descr > .descr {
+    width:1000px;
+    height:32px;
+    border-radius:2px;
+    background:var(--color2);
+    margin-top:4px;
+    margin-left:4px;
+}
+
+header > .header-descr > .descr > p {
+    line-height:30px;
+    text-indent:5px;
+    font-size:12px;
+    font-family:Verdana,Arial,sans-serif;
+}
+
+header > .header-descr > .descr > p > span {
+    color:var(--color7);
+    font-weight:bold;
+}
+
+/* Body */
+
+main {
+    display:flex;
+    justify-content: center;
+    align-content:stretch;
+}
+.content-descr {
+    position:relative;
+    width:690px;
+    height:340px;
+    border:1px solid var(--color4);
+    background:var(--color4);
+    margin-top:10px;
+}
+
+main > section > .content-descr > .box-descr {
+    margin-top:20px;
+}
+
+main > section > .content-descr > .box-descr > p {
+    display:block;
+    text-align:center;
+}
+
+main > section > .content-descr > img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:80px;
+}
+
+
+main > section > .box-login {
+    position:relative;
+    width:308px;
+    height:255px;
+    border:1px solid rgb(227, 236, 247, 0.3);
+    background:rgb(238, 243, 248, 0.9);
+    margin-top:10px; /*10*/
+    margin-left:10px;
+}
+
+main > section > .box-login > p {
+    text-align:center;
+    font-family:Verdana,Arial,sans-serif;
+    font-size:12px;
+    margin-top:17px;
+}
+
+main > section > .box-login > form {
+    margin-top:10px;
+}
+
+main > section > .box-login > form > div > label {
+    font-size:12px;
+    font-family:Verdana, Arial, sans-serif;
+    margin-left:20px;
+}
+
+main > section > .box-login > form > div > input {
+    width:160px;
+    height:20px;
+    margin-left:5px;
+    margin-top:5px;
+}
+
+main > section > .box-login > form > .check_box {
+    margin-top:6px;
+    margin-left:40px;
+}
+
+main > section > .box-login > form > .check_box > #checkbox1 {
+    width:13px;
+    height:13px;
+}
+
+main > section > .box-login > form > .check_box > #checkbox_description {
+    margin-left:10px;
+}
+
+/*main > section > .box-login > form > .check_box  {
+    
+}*/
+
+main > section > .box-login > form > div > #pass2 {
+    margin-left:21px;
+}
+
+main > section > .box-login > form > .button {
+    margin-left:74px;
+    margin-top:5px;
+}
+
+main > section > .box-login > form > .button > button {
+    width:50px;
+    height:23px;
+    cursor:pointer;
+}
+
+
+
+main > section > .box-login2 {
+    position:relative;
+    width:308px;
+    height:73px;
+    border:1px solid rgb(227, 236, 247, 0.3);
+    background:var(--color4);
+    margin-top:10px;
+    margin-left:10px;
+    background:rgb(238, 243, 248, 0.9);
+}
+
+main > section > .box-login2 > p {
+    font-family:Verdana,Arial,sans-serif;
+    font-size:12px;
+    text-align:center;
+    margin-top:17px;
+}
+
+main > section > .box-login2 > #register2 {
+    font-weight:bold;
+    font-size:14px;
+    color:var(--color8);
+    font-family:Verdana, Arial, sans-serif;
+    text-align:center;
+    margin-top:5px;
+}
+
+main > section > .box-login2 > #register2 > a {
+    color:var(--color8);
+}
+
+footer > #footer-descr {
+    width:1010px;
+    height:25px;
+    border:1px solid var(--color1);
+    margin-top:10px; /*10px*/
+    background:var(--color1);
+    line-height:23px;
+    position:relative;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+footer > #footer-descr > p {
+    font-family:Verdana,Arial,sans-serif;
+    font-size:12px;
+    text-align:center;
+}
+
+footer > #footer-descr > p > a {
+    text-decoration:underline;
+    color:var(--color8);
+    cursor:pointer;
+}
